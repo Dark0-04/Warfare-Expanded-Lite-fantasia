@@ -156,18 +156,17 @@
     // Water
 
     {
-        "name": "Naval Melee",
+        "name": "Melee Water",
 	"uniques": ["[+50]% Strength <vs [Naval Raider] units>"],
         "movementType": "Water"
     },
     {
-        "name": "Naval Ranged",
-	"uniques": ["[-20]% Strength <vs [Land] units>"],
+        "name": "Ranged Water",
         "movementType": "Water"
     },
     {
         "name": "Naval Siege",
-	"uniques": ["[-20]% Strength <vs [Naval Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
+	"uniques": ["[-20]% Strength <vs [Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
         "movementType": "Water"
     },
     {
@@ -180,20 +179,31 @@
         "movementType": "Water"
     },
     {
-        "name": "Naval Submarine",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units"],
+        "name": "Submarine",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Can see invisible [Naval Raider] units"],
         "movementType": "Water"
     },
+	{
+        "name": "Water Terror",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", 
+					"Invisible to non-adjacent units", 
+					"Can see invisible [Water] units", 
+					"Ignores Zone of Control", 
+					"May heal outside of friendly territory", 
+					"[+5] HP when healing <in [Foreign Land] tiles> <hidden from users>", 
+					"[+50]% maintenance costs"]
+    },
 
-    //aircraft
+    //Air
 
     {
-        "name": "Air Fighter",
+        "name": "Fighter",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
-        "name": "Air Bomber",
+        "name": "Bomber",
         "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
         "movementType": "Air"
     },
@@ -208,147 +218,12 @@
         "movementType": "Air"
     },
     {
-        "name": "Air Atomic Bomber",
+        "name": "Atomic Bomber",
         "uniques": ["Aircraft", "Self-destructs when attacking"],
         "movementType": "Air"
-    },
-    {
-        "name": "Air Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
-    },
-    {
-        "name": "Nuke Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
-    },
-    {
-        "name": "Air Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
-    },
-    {
-        "name": "Air Satellite",
-        "movementType": "Air",
-        "uniques": ["Cannot be intercepted"]
-    },
-
-
-
-    //vanilla items
-
-    {
-        "name": "Sword",
-        "movementType": "Land"
-    },
-    {
-        "name": "Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Scout",
-        "movementType": "Land"
-    },
-    {
-        "name": "Mounted",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armored",
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege",
-        "movementType": "Land"
-    },
-    {
-        "name": "Melee Water",
-        "movementType": "Water",
-	"uniques": ["Cannot intercept [Ballistic] units"]
-    },
-    {
-        "name": "Ranged Water",
-        "movementType": "Water",
-    },
-    {
-        "name": "Submarine",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
-    },
-    {
-        "name": "Aircraft Carrier",
-        "movementType": "Water",
-    },
-    {
-        "name": "Fighter",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Can perform Air Sweep"]
-    },
-    {
-        "name": "Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
     },
     {
         "name": "Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking"]
     },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
-    },
-    
-    // Deprecated unit types required for mods without a UnitTypes.json file to work
-    
-    {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armor",
-        "movementType": "Land"
-    },
-    {
-        "name": "WaterCivilian",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterMelee",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterRanged",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterSubmarine",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterAircraftCarrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "AtomicBomber",
-        "movementType": "Air"
-    }
-]
