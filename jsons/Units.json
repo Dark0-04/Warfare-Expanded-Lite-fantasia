@@ -176,30 +176,16 @@
 		"name": "Siege Ram",
 		"unitType": "Sword", 
 		"movement": 2,
-		"strength": 14,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"obsoleteTech": "Chemistry",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-50]% Strength <when defending>",
 		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight", "Ignores Zone of Control"],
 		"attackSound": "throw"
 	},
-	{
-		"name": "Battering Ram",
-		"unitType": "Sword",
-		"uniqueTo": "The Huns",
-		"replaces": "Siege Ram",
-		"movement": 2,
-		"strength": 10,
-		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "Ignores Zone of Control"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
-	},
+	
 	{
 		"name": "Medieval Siege Tower",
 		"unitType": "Sword", 
@@ -207,9 +193,9 @@
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
+		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control","[-20]% Strength <when defending>"],
 		"attackSound": "throw"
 	},
 	{
