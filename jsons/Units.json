@@ -241,22 +241,12 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 60,
-		"cost": 400,
+		"cost": 410,
 		"requiredTech": "Rocketry",
-		"uniques": ["[+200]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-	{
-		"name": "Modern Commando",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-
+	
 	//siegeB
 	{
 		"name": "Catapult",
