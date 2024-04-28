@@ -218,9 +218,10 @@
 		"strength": 30,
 		"cost": 225,
 		"requiredTech": "Military Science",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Mana Battery",
 		"upgradesTo": "Flamethrower",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"requiredResource": "Niter"
+		"uniques": ["[+150]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -228,23 +229,21 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 45,
-		"cost": 225,
-		"requiredTech": "Replaceable Parts",
-		"obsoleteTech": "Pharmaceuticals",
+		"cost": 370,
+		"requiredTech": "Mana Battery",
+		"obsoleteTech": "Rocketry",
 		"upgradesTo": "Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Commando",
+		"name": "Elemental Mage",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 65,
+		"strength": 60,
 		"cost": 400,
-		"requiredTech": "Pharmaceuticals",
-		"obsoleteTech": "Telecommunications",
-		"upgradesTo": "Modern Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"requiredTech": "Rocketry",
+		"uniques": ["[+200]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
