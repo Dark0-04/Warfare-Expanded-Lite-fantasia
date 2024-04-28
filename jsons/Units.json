@@ -238,7 +238,7 @@
 	},
 	{
 		"name": "Elemental Mage",
-		"unitType": "Gunpowder",
+		"unitType": "Mage",
 		"movement": 2,
 		"strength": 60,
 		"cost": 410,
