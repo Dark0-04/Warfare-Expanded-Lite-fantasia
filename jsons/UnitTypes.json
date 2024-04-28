@@ -149,7 +149,7 @@
 
     {
         "name": "Missile Defense",
-	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
+	"uniques": ["Cannot intercept [non-[Missile]] units", "[+5000]% Strength <vs [Missile] units>"],
         "movementType": "Land"
     },
 
@@ -199,7 +199,7 @@
 
     {
         "name": "Fighter",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
         "movementType": "Air"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
         "name": "Air Close Air Support",
-        "uniques": ["Aircraft", "Can perform Air Sweep"],
+        "uniques": ["Aircraft"],
         "movementType": "Air"
     },
     {
