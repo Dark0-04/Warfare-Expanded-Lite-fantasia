@@ -8,52 +8,41 @@
         "movementType": "Water"
     },
 
-    //infantry
-
-    {
-        "name": "Infantry",
-	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>"],
-        "movementType": "Land"
-    },
-    {
-        "name": "Marines",
-        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-        "movementType": "Land"
-    },
-    {
-        "name": "Anti Cavalry",
-        "movementType": "Land"
-    },
+    // Land
     {
         "name": "Recon",
-	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
         "movementType": "Land"
     },
-    {
-        "name": "Paratrooper",
-        "movementType": "Land"
+	{
+        "name": "Sword",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
+					"[+25]% Strength <vs [Anti-Armor] units> <when attacking>"]
     },
-    {
+	{
+        "name": "Gunpowder",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
+					"[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
+    },
+	{
+        "name": "Anti-Cav",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
+					"[+25]% Strength <vs [Armored] units> <when attacking>"]
+    },
+	{
+        "name": "Anti-Armor",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
+					"[+33]% Strength <vs [Armored] units> <when attacking>"]
+    },
+	{
         "name": "Militia",
 	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
         "movementType": "Land"
     },
-
-    //ranged
-
-    {
-        "name": "Ranged Heavy",
-	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Support",
-        "movementType": "Land"
-    },
-
-    //siege
-
-    {
+	{
         "name": "Siege Melee",
         "movementType": "Land"
     },
@@ -62,6 +51,7 @@
 	"uniques": ["[-1] Sight"],
         "movementType": "Land"
     },
+
     {
         "name": "Siege Carrier",
 	"uniques": ["[-1] Sight"],
@@ -72,41 +62,98 @@
 	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
         "movementType": "Land"
     },
+	
+    {
+        "name": "Mounted",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
+					"[+25]% Strength <vs [Gunpowder] units> <when attacking>"]
+    },
+	{
+        "name": "Armored",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
+					"[+33]% Strength <vs [Gunpowder] units> <when attacking>"]
+    },
+	{
+        "name": "Archery",
+        "movementType": "Land",
+		"uniques": ["[-15]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Water] units> <when attacking>"]
+    },
+	{
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+		"uniques": ["[-10]% Strength <vs cities> <when attacking>", 
+					"[-10]% Strength <vs [Water] units> <when attacking>"]
+    },
+	{
+		"name": "Airship",
+		"movementType": "Land",
+		"uniques": ["Can pass through impassable tiles", 
+					"All tiles cost 1 movement", 
+					"[+1] Sight <when [Embarked]>"]
+	},
+	{
+        "name": "Vampire",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 		// 25
+					"[+45]% Strength <starting from the [Renaissance age]>", 	// 35
+					"[+40]% Strength <starting from the [Industrial age]>", 	// 45
+					"[+85]% Strength <starting from the [Prosperity age]>", 	// 65
+					"[+85]% Strength <starting from the [Modern age]>"]			// 85
+    },
+	{
+		"name": "Air Terror",
+		"movementType": "Land",
+		"uniques": ["Can pass through impassable tiles", 
+					"All tiles cost 1 movement", 
+					"Eliminates combat penalty for attacking over a river", 
+					"Eliminates combat penalty for attacking across a coast", 
+					"May travel on Water tiles without embarking", 
+					"No defensive terrain bonus", 
+					"[+100]% maintenance costs", 
+					"Never appears as a Barbarian unit"]
+	},
+	{
+        "name": "Mage",
+        "movementType": "Land",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+25]% Strength <vs [Construct] units> <when attacking>"]
+    },
+	{
+        "name": "Monk",
+        "movementType": "Land"
+    },
+	{
+		"name": "Witcher",
+		"movementType": "Land",
+		"uniques": ["[+10]% Strength <vs [Vampire] units>",
+					"[+50]% Strength <during the [Industrial age]>",	// 36
+					"[+100]% Strength <during the [Prosperity age]>",	// 48
+					"[+175]% Strength <during the [Modern age]>"]		// 66
+	},
+	{
+        "name": "Construct",
+        "movementType": "Land",
+        "uniques": ["[+20]% Strength <when defending>", 
+					"Ignores Zone of Control"]
+    },
+	{
+        "name": "Tamer",
+        "movementType": "Land",
+		"uniques": ["[+50]% XP gained from combat", 
+					"[-25]% Strength <when attacking>", 
+					"[+33]% Strength <when attacking> <vs [Beast] units>"]
+    },
 
-    //cav
-
-    {
-        "name": "Heavy Cavalry",
-        "movementType": "Land"
-    },
-    {
-        "name": "Light Cavalry",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Cavalry",
-	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
-        "movementType": "Land"
-    },
-    {
-        "name": "Counter Cavalry",
-        "movementType": "Land"
-    },
-
-    //specialist
-
-    {
-        "name": "Anti Air",
-	"uniques": ["[+60]% Strength <vs [Aircraft] units>", "[+100]% Strength <vs [Helicopter] units>", "Cannot intercept [Ballistic] units"],
-        "movementType": "Land"
-    },
     {
         "name": "Missile Defense",
 	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
         "movementType": "Land"
     },
 
-    //naval
+    // Water
 
     {
         "name": "Naval Melee",
