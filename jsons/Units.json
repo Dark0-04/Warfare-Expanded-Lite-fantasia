@@ -195,7 +195,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control","[-20]% Strength <when defending>"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control","[-15]% Strength <when defending>"],
 		"attackSound": "throw"
 	},
 	{
@@ -207,7 +207,8 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Demolition Sapper",
 		"obsoleteTech": "Military Science",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"requiredResource": "Niter"
+		"uniques": ["[+150]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
