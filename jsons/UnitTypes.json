@@ -42,26 +42,6 @@
 	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
         "movementType": "Land"
     },
-	{
-        "name": "Siege Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege Ranged",
-	"uniques": ["[-1] Sight"],
-        "movementType": "Land"
-    },
-
-    {
-        "name": "Siege Carrier",
-	"uniques": ["[-1] Sight"],
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege Nuke",
-	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
-        "movementType": "Land"
-    },
 	
     {
         "name": "Mounted",
