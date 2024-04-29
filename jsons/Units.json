@@ -290,7 +290,7 @@
 		"interceptRange": 4,
 		"strength": 65,
 		"cost": 425,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Ballistics",
 		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [1] [Rune Stone]"],
 		"attackSound": "missile"
 	},
@@ -301,21 +301,11 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Radar",
+		"cost": 350,
+		"requiredTech": "Combined Arms",
 		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
-		"upgradesTo": "Modern Paratrooper"
-	},
-	{
-		"name": "Modern Paratrooper",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
-		"cost": 450,
-		"requiredTech": "Mobile Tactics",
-		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
-		"attackSound": "shot",
+		"upgradesTo": "Teleporter"
 	},
 
 	//light cav
@@ -333,23 +323,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	{
-		"name": "Companion Cavalry",
-		"unitType": "Mounted",
-		"uniqueTo": "Greece",
-		"replaces": "Horseman",
-		"movement": 5,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Courser",
-		"obsoleteTech": "Chivalry",
-		"promotions": ["Great Generals I"],
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
+	
 	{
 		"name": "Courser",
 		"unitType": "Mounted",
