@@ -391,9 +391,9 @@
 		"range": 2,
 		"cost": 220,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Railroads",
 		"requiredResource": "Horses",
-		"upgradesTo": "Self Propelled Gun",
+		"upgradesTo": "",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -403,12 +403,13 @@
 		"movement": 4,
 		"strength": 38,
 		"rangedStrength": 60,
+		"range": 2,
 		"cost": 400,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Modern SPG",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
-		"attackSound": "artilllery"
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
 	},
 	{
 		"name": "Self Propelled Gun",
@@ -421,7 +422,7 @@
 		"requiredResource": "Oil",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artilllery"
+		"attackSound": "artillery"
 	},
 
 	//counter cav
