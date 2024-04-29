@@ -57,7 +57,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Heavy Infantry",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -282,20 +282,6 @@
 		"attackSound": "torpedo"
 	},
 
-	//AA
-	
-	{
-		"name": "Mobile SAM",
-		"unitType": "Anti Air",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
-		"attackSound": "missile"
-	},
-
 	//missile def
 	{
 		"name": "Theatre Defense System",
@@ -305,7 +291,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
+		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [1] [Rune Stone]"],
 		"attackSound": "missile"
 	},
 
