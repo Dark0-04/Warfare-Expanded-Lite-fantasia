@@ -1,4 +1,22 @@
 [
+
+	{
+		"name": "Cleric",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 250,
+		"requiredTech": "Mana Channeling",
+		"obsoleteTech": "Pharmaceuticals",
+		"upgradesTo": "Cleric Vehicle",
+		"uniques": ["[+1] Sight", 
+					"All adjacent units heal [+25] HP when healing", 
+					"Uncapturable"],
+		"civilopediaText": [
+			{"text": "Support unit with heal aura. They prefer death over helping the enemies."}
+		]
+	},
+
+
 	{
 		"name": "Cleric Vehicle",
 		"unitType": "Civilian",
