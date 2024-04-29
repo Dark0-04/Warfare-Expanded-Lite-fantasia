@@ -243,25 +243,25 @@
 		"strength": 60,
 		"cost": 410,
 		"requiredTech": "Rocketry",
-		"uniques": ["[+200]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
+		"uniques": ["[+150]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	
 	//siegeB
 	
 	{
-		"name": "Missile Artillery",
-		"unitType": "Siege",
+		"name": "Spellcasting Artillery",
+		"unitType": "Mage",
 		"movement": 2,
-		"strength": 55,
-		"rangedStrength": 70,
+		"strength": 40,
+		"rangedStrength": 65,
 		"range": 3,
 		"cost": 500,
-		"requiredTech": "Telecommunications",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Must set up to ranged attack", "Can carry [1] [Ballistic] units", "Never appears as a Barbarian unit"],
+		"requiredTech": "Radar",
+		"requiredResource": "Rune Stone",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "No defensive terrain bonus", "Must set up to ranged attack", "Can carry [2] [Tactical Spell] units", "Can carry [1] [Strategic Spell] units", "Never appears as a Barbarian unit", "[-50]% Strength <when defending>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "missile"
+		"attackSound": "torpedo"
 	},
 
 	//AA
