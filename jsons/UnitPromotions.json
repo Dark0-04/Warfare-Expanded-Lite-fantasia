@@ -1,4 +1,8 @@
 [
+	{
+		"name": "[Nassette Guard] ability",
+		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
+	}
 	
 	//Militia
 	{
@@ -87,3 +91,4 @@
 		"prerequisites": ["Extra Hardpoints", "UAV Support"],
 		"unitTypes": ["Air Drone"]
 	},
+]
