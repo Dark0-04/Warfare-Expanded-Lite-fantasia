@@ -1,10 +1,4 @@
-[
-	{
-		"name": "[Nassette Guard] ability",
-		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
-	}
-	
-	//Militia
+        //Militia
 	{
 		"name": "Battlefield Survival I",
 		"uniques": ["Heals [+20] damage if it kills a unit","[+10] HP when healing","[+10]% XP gained from combat"],
@@ -91,4 +85,10 @@
 		"prerequisites": ["Extra Hardpoints", "UAV Support"],
 		"unitTypes": ["Air Drone"]
 	},
+
+        {
+		"name": "UAV",
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%"]
+	},
+
 ]
