@@ -521,183 +521,31 @@
 
 	//missiles
 	{
-		"name": "Guided Missile",
+		"name": "Tactical Spell",
 		"unitType": "Missile",
 		"movement": 1,
-		"strength": 60,
-		"rangedStrength": 60,
-		"range": 8,
-		"cost": 150,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs", "Ballistic", "Destroys tile improvements when attacking"],
-		"attackSound": "missile"
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 5,
+		"cost": 120,
+		"requiredTech": "Magic Industrialization",
+		"uniques": ["[-100]% maintenance costs", "Destroys tile improvements when attacking"],
+		"attackSound": "torpedo"
 	},
 
-	//nukes
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
+		"name": "Strategic Spell",
+		"unitType": "Missile",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 70,
-		"range": 10,
-		"cost": 600,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
-		"uniques": ["Destroys tile improvements when attacking", "Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [1]", "Damage taken from interception reduced by [10]%"],
-		"attackSound": "nuke"
-		// Plane rather than a missile - can be based in city or Carrier only.
-		// Can be intercepted, but must die for it not to take effect.
+		"range": 8,
+		"cost": 175,
+		"requiredTech": "Computers",
+		"uniques": ["[-100]% maintenance costs", "[+100]% Strength <vs [{Military}] units>", "Destroys tile improvements when attacking", "Blast radius [1]", "Consumes [1] [Rune Stone]"],
+		"attackSound": "torpedo"
 	},
-	{
-		"name": "Nuclear Missile",
-		"unitType": "Nuke Missile",
-		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
-		"range": 12,
-		"cost": 1000,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Destroys tile improvements when attacking", "Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [2]", "Consumes [2] [Uranium]", "Ballistic"],
-		"attackSound": "nuke"
-	},
-
-	//navy melee
-	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Cog",
-		"obsoleteTech": "Compass",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Greek Trireme",
-		"unitType": "Melee Water",
-		"uniqueTo": "Greece",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Cog",
-		"promotions": ["Boarding Party I"],
-		"obsoleteTech": "Compass",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Longship",
-		"unitType": "Melee Water",
-		"uniqueTo": "Denmark",
-		"replaces": "Galley",
-		"movement": 5,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [+15] damage if it kills a unit", "Destroys tile improvements when attacking"],
-		"upgradesTo": "Cog",
-		"promotions": ["Coastal Raider I", "Landing Party"],
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit
-	},
-	{
-		"name": "Cog",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 15,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Astronomy",
-		"upgradesTo": "Caravel",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Water] units"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Turtle Ship",
-		"unitType": "Melee Water",
-		"uniqueTo": "Korea",
-		"movement": 4,
-		"strength": 36,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles", "Can see invisible [Water] units"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Ironclad",
-		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 40,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"requiredResource": "Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit", "Can see invisible [Water] units"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Destroyer",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 55,
-		"interceptRange": 1,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"upgradesTo": "Missile Frigate",
-		"uniques": ["Can see invisible [Water] units", "[60]% chance to intercept air attacks",
-			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Missile Frigate",
-		"unitType": "Melee Water",
-		"movement": 7,
-		"strength": 70,
-		"range": 3,
-		"interceptRange": 1,
-		"cost": 425,
-		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Water] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "missile"
-	},
-
+	
 	//navy ranged
 	{
 		"name": "Great Galley",
