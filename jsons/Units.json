@@ -1,5 +1,4 @@
 [
-
 	{
 		"name": "Cleric",
 		"unitType": "Civilian",
@@ -31,7 +30,7 @@
 		"movement": 2,
 		"cost": 400,
 		"requiredTech": "Military Science",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Knight Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Computers"]
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Knight Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Computers]>"]
 	},
 	{
 		"name": "Airfield Ground Unit",
@@ -76,92 +75,8 @@
 		"attackSound": "metalhit"
 	},
 
-	//militia
-	{
-		"name": "Levies",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 5,
-		"cost": 15,
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Citizen Militia",
-		"obsoleteTech": "Mathematics",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Citizen Militia",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 8,
-		"cost": 20,
-		"uniques": ["May upgrade to [Heavy Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Armed Peasants",
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Civil Service",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Armed Peasants",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 12,
-		"cost": 30,
-		"uniques": ["May upgrade to [Pikeman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Militiaman",
-		"requiredTech": "Civil Service",
-		"obsoleteTech": "Magic Negation",
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Militiaman",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 15,
-		"cost": 40,
-		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Volunteers",
-		"requiredTech": "Magic Negation",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-	},
-	
-	{
-		"name": "Volunteers",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 25,
-		"cost": 50,
-		"uniques": ["May upgrade to [Rifleman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Conscripts",
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"attackSound": "shot"
-	},
-	
-	{
-		"name": "Conscripts",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 35,
-		"cost": 80,
-		"uniques": ["May upgrade to [Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo": "Irregulars",
-		"requiredTech": "Replaceable Parts",
-		"obsoleteTech": "Computers",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Irregulars",
-		"unitType": "Militia",
-		"movement": 3,
-		"strength": 50,
-		"cost": 100,
-		"uniques": ["May upgrade to [Lightsaberman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
-		"requiredTech": "Computers",
-		"attackSound": "shot"
-	},
 
-	//amphibious
+//amphibious
 	{
 		"name": "Naval Infantry",
 		"unitType": "Gunpowder",
@@ -187,7 +102,6 @@
 		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
-
 
 	//siegeA
 	{
@@ -254,6 +168,7 @@
 		"uniques": ["[+200]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
+
 	{
 		"name": "Elemental Mage",
 		"unitType": "Mage",
@@ -261,10 +176,10 @@
 		"strength": 60,
 		"cost": 410,
 		"requiredTech": "Rocketry",
-		"uniques": ["[+150]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
+		"uniques": ["[+150]% Strength <vs cities>", "[+10]% Strength <vs [Military] units> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-	
+
 	//siegeB
 	
 	{
@@ -280,19 +195,6 @@
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "[+10]% Strength <vs [Military] units> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "Can carry [2] [Tactical Spell] units", "Can carry [1] [Strategic Spell] units", "Never appears as a Barbarian unit", "[-50]% Strength <when defending>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "torpedo"
-	},
-
-	//missile def
-	{
-		"name": "Theatre Defense System",
-		"unitType": "Missile Defense",
-		"movement": 3,
-		"interceptRange": 4,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Ballistics",
-		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [1] [Rune Stone]"],
-		"attackSound": "missile"
 	},
 
 	//paratroops
@@ -445,20 +347,7 @@
 		"attackSound": "machinegun"
 	},
 
-	//UAV
 	
-	{
-		"name": "UAV",
-		"unitType": "Air Drone",
-		"movement": 1,
-		"strength": 55,
-		"rangedStrength": 55,
-		"range": 12,
-		"cost": 380,
-		"requiredTech": "Radar",
-		"promotions": ["UAV"],
-		"attackSound": "jetgun"
-	},
 
 	//boomer
 	{
@@ -505,7 +394,7 @@
 	//heli
 	
 	{
-		"name": "Light Gunship",
+		"name": "Helicopter Gunship",
 		"unitType": "Airship",
 		"movement": 6,
 		"strength": 60,
@@ -587,7 +476,7 @@
 		"uniques": ["Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Monitor",
+		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
