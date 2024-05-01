@@ -529,7 +529,7 @@
 		"range": 5,
 		"cost": 120,
 		"requiredTech": "Magic Industrialization",
-		"uniques": ["[-100]% maintenance costs", "Destroys tile improvements when attacking"],
+		"uniques": ["[-100]% maintenance costs", "Spell", "Destroys tile improvements when attacking"],
 		"attackSound": "torpedo"
 	},
 
@@ -542,7 +542,7 @@
 		"range": 8,
 		"cost": 175,
 		"requiredTech": "Computers",
-		"uniques": ["[-100]% maintenance costs", "[+100]% Strength <vs [{Military}] units>", "Destroys tile improvements when attacking", "Blast radius [1]", "Consumes [1] [Rune Stone]"],
+		"uniques": ["[-100]% maintenance costs", "Spell", "[+100]% Strength <vs [{Military}] units>", "Destroys tile improvements when attacking", "Blast radius [1]", "Consumes [1] [Rune Stone]"],
 		"attackSound": "torpedo"
 	},
 	
@@ -593,68 +593,18 @@
 	},
 		
 	{
-		"name": "Monitor",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 35,
-		"rangedStrength": 40,
-		"range": 3,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"requiredResource": "Coal",
-		"upgradesTo": "Battleship",
-		"obsoleteTech": "Combustion",
-		"promotions": ["Indirect Fire"],
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 65,
 		"range": 3,
-		"cost": 375,
-		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
-		"promotions": ["Indirect Fire"],
-		"obsoleteTech": "Advanced Ballistics",
-		"upgradesTo": "Arsenal Ship",
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Yamato Battleship",
-		"unitType": "Ranged Water",
-		"replaces": "Battleship",
-		"uniqueTo": "Japan",
-		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 70,
-		"range": 3,
 		"cost": 400,
 		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
-		"promotions": ["Indirect Fire","Targeting I"],
-		"obsoleteTech": "Advanced Ballistics",
-		"upgradesTo": "Arsenal Ship",
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Arsenal Ship",
-		"unitType": "Ranged Water",
-		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
-		"range": 3,
-		"cost": 500,
-		"requiredTech": "Advanced Ballistics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Can carry [6] [Ballistic] units", "Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"requiredTech": "Combustion",
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>", "Can carry [1] [Spell] units"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "missile"
+		"attackSound": "shipguns"
 	},
 
 	//navy raiders
