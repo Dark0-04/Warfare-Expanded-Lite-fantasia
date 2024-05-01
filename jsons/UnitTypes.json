@@ -109,8 +109,8 @@
 		"name": "Witcher",
 		"movementType": "Land",
 		"uniques": ["[+10]% Strength <vs [Vampire] units>",
-					"[+50]% Strength <during the [Industrial age]>",	// 36
-					"[+100]% Strength <during the [Prosperity age]>",	// 48
+					"[+50]% Strength <during the [Industrial age]>",	// 36,
+					"[+100]% Strength <during the [Prosperity age]>",	// 48,
 					"[+175]% Strength <during the [Modern age]>"]		// 66
 	},
 	{
@@ -137,7 +137,6 @@
 
     {
         "name": "Melee Water",
-	"uniques": ["[+50]% Strength <vs [Naval Raider] units>"],
         "movementType": "Water"
     },
     {
@@ -145,22 +144,12 @@
         "movementType": "Water"
     },
     {
-        "name": "Naval Siege",
-	"uniques": ["[-20]% Strength <vs [Submarine] units>","[-20]% Strength <vs [Naval Raider] units>", "[+30]% Strength <vs cities>"],
-        "movementType": "Water"
-    },
-    {
         "name": "Naval Carrier",
         "movementType": "Water"
     },
     {
-        "name": "Naval Raider",
-        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Naval Raider] units"],
-        "movementType": "Water"
-    },
-    {
         "name": "Submarine",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Can see invisible [Naval Raider] units"],
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
         "movementType": "Water"
     },
 	{
@@ -184,22 +173,12 @@
     },
     {
         "name": "Bomber",
-        "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
-        "movementType": "Air"
-    },
-    {
-        "name": "Air Close Air Support",
-        "uniques": ["Aircraft"],
+	"uniques": ["Aircraft"],
         "movementType": "Air"
     },
     {
         "name": "Air Drone",
         "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
-        "movementType": "Air"
-    },
-    {
-        "name": "Atomic Bomber",
-        "uniques": ["Aircraft", "Self-destructs when attacking"],
         "movementType": "Air"
     },
     {
