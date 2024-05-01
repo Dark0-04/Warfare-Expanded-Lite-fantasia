@@ -607,107 +607,30 @@
 		"attackSound": "shipguns"
 	},
 
-	//navy raiders
-	{
-		"name": "Privateer",
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Commerce Raider",
-		"obsoleteTech": "Steam Power",
-		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Sea Beggar",
-		"unitType": "Melee Water",
-		"replaces": "Privateer",
-		"uniqueTo": "The Netherlands",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Commerce Raider",
-		"obsoleteTech": "Steam Power",
-		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Commerce Raider",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 34,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"upgradesTo": "Submarine",
-		"obsoleteTech": "Refrigeration",
-		"promotions": ["Coastal Raider I", "Supply"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Modern Pirate",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 7,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units", "Heals [+15] damage if it kills a unit","Destroys tile improvements when attacking"],
-		"attackSound": "shipguns"
-	},
-
 	//subs
+
 	{
 		"name": "Submarine",
 		"unitType": "Submarine",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
-		"cost": 325,
+		"cost": 320,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
+
 	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 50,
-		"range": 3,
-		"rangedStrength": 85,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Ballistic] units", "Never appears as a Barbarian unit"],
+		"movement": 5,
+		"strength": 35,
+		"range": 2,
+		"rangedStrength": 60,
+		"cost": 390,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Guided Missile] units", "Can carry [1] [Warlock] units", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
-
-	//navy carriers
-	{
-		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
-		"movement": 5,
-		"strength": 40,
-		"cost": 375,
-		"requiredTech": "Electronics",
-		"upgradesTo": "Nuclear Carrier",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Nuclear Carrier",
-		"unitType": "Aircraft Carrier",
-		"movement": 5,
-		"strength": 60,
-		"interceptRange": 1,
-		"cost": 500,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
-	}
-]
