@@ -277,7 +277,7 @@
 		"cost": 500,
 		"requiredTech": "Radar",
 		"requiredResource": "Rune Stone",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "No defensive terrain bonus", "Must set up to ranged attack", "Can carry [2] [Tactical Spell] units", "Can carry [1] [Strategic Spell] units", "Never appears as a Barbarian unit", "[-50]% Strength <when defending>"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "[+10]% Strength <vs [Military] units> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "Can carry [2] [Tactical Spell] units", "Can carry [1] [Strategic Spell] units", "Never appears as a Barbarian unit", "[-50]% Strength <when defending>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "torpedo"
 	},
