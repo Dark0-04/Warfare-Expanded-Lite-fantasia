@@ -30,24 +30,6 @@
 		"unitTypes": ["Militia"]
 	},
 
-	//Air Atomic Bomber
-	{
-		"name": "Nuclear Strike Reserve",
-		"uniques": ["[-50]% maintenance costs"],
-		"unitTypes": ["Atomic Bomber"]
-	},
-	{
-		"name": "Strategic Nuclear Bomber",
-		"uniques": ["[+5] Range"],
-		"unitTypes": ["Atomic Bomber"]
-	},
-	{
-		"name": "Advanced Nuclear Bomber",
-		"prerequisites": ["Strategic Nuclear Bomber"],
-		"uniques": ["Damage taken from interception reduced by [20]%"],
-		"unitTypes": ["Atomic Bomber"]
-	},
-
 	//Air Missile
 	{
 		"name": "Multistage Thrusters",
