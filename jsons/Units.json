@@ -21,22 +21,23 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"uniques": ["[+1] Sight", "All adjacent units heal [+25] HP when healing","Uncapturable"],
-		"cost": 350,
+		"cost": 300,
 		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Field Commander",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 400,
+		"cost": 350,
 		"requiredTech": "Military Science",
 		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Knight Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Computers]>"]
 	},
 	{
 		"name": "Airfield Ground Unit",
-		"unitType": "Civilian",
+		"unitType": "Gunpowder",
+		"strength": 30,
 		"movement": 3,
-		"cost": 600,
+		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
 		"uniques": ["Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"],
