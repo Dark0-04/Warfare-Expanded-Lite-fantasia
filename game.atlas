@@ -3097,13 +3097,6 @@ TileSets/FantasyHex/Units/Qing Banner Cavalry (Ranged)
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ranger
-  rotate: false
-  xy: 484, 80
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Red Army Tank
   rotate: false
   xy: 484, 44
