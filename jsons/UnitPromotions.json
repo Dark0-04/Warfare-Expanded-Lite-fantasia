@@ -1,4 +1,36 @@
 [
+	// Light Airship
+	{
+		"name": "Mobility I",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Light Airship"],
+        "column": 22,
+        "row": 1
+	},
+	{
+		"name": "Mobility II",
+		"prerequisites": ["Mobility I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Light Airship"],
+        "column": 22,
+        "row": 2
+	},
+	{
+		"name": "Anti-Armor I",
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Light Airship"],
+        "column": 23,
+        "row": 1
+	},
+	{
+		"name": "Anti-Armor II",
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Light Airship"],
+        "column": 23,
+        "row": 2
+	},
+	
 	//Militia
 	{
 		"name": "Battlefield Survival I",
