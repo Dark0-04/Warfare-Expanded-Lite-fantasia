@@ -220,7 +220,7 @@
 		"strength" : 50,
 		"cost": 320,
 		"requiredTech": "Combustion",
-		"uniques": ["Can move after attacking", "Ignores Zone of Control", "[-20]% Strength <vs [Armored] units>"],
+		"uniques": ["Can move after attacking", "Ignores Zone of Control", "[-50]% Strength <vs [Armored] units>"],
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Bionic Physiology",
 		"requiredResource": "Oil",
@@ -234,7 +234,7 @@
 		"cost": 400,
 		"requiredTech": "Bionic Physiology",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control", "[-10]% Strength <vs [Armored] units>", "[+10]% Strength <vs [Military] units>"],
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control", "[-50]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 		"promotions": ["Shock"],
 	},
