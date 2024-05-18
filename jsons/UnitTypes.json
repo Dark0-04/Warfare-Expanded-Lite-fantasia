@@ -108,6 +108,14 @@
 					"[+100]% maintenance costs", 
 					"Never appears as a Barbarian unit"]
 	},
+
+	{
+		"name": "Light Airship",
+		"movementType": "Land",
+		"uniques": ["Can pass through impassable tiles", 
+					"All tiles cost 1 movement", 
+					"[+1] Sight <when [Embarked]>"]
+	},
 	
 	{
         "name": "Mage",
