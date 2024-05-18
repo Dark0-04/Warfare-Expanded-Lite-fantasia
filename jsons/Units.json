@@ -345,7 +345,26 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Airship] units>", "[+50]% Strength <vs [Light Airship] units>"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 425,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", 
+					"[+150]% Strength <vs [Bomber] units>", 
+					"[+50]% Strength <vs [Airship] units>",
+			                "[+100]% Strength <vs [Light Airship] units>",
+					"Can perform Air Sweep"],
 		"attackSound": "machinegun"
 	},
 
