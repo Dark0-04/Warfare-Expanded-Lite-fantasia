@@ -87,7 +87,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["+100% Strength (when defending) (when Embarked)"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
@@ -100,7 +100,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "Lightsaberman",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["+1 Sight (when Embarked)", "+100% Strength (when defending) (when Embarked)"],
 		"attackSound": "shot"
 	},
 
@@ -403,10 +403,10 @@
 		"name": "Stealth Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
-		"strength": 80,
-		"rangedStrength": 80,
+		"strength": 85,
+		"rangedStrength": 85,
 		"range": 10,
-		"cost": 475,
+		"cost": 550,
 		"requiredTech": "Foresighting",
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Airship] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Rune Stone]"],
 		"attackSound": "bombing"
@@ -655,7 +655,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Ballistics",
-		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [1] [Rune Stone]"],
+		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [1] [Rune Stone]", "Limited to [3] per Civilization"],
 		"attackSound": "missile"
 	},
 ]
