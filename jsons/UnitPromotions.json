@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Special Promotion",
-		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free"],
 		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
