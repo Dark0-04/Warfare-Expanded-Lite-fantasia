@@ -57,7 +57,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Iron Working",
+		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Heavy Infantry",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -69,7 +69,7 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 70,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
