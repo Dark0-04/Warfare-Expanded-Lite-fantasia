@@ -639,7 +639,7 @@
 		"rangedStrength": 65,
 		"cost": 500,
 		"requiredTech": "Combustion",
-		"uniques": ["Must set up to ranged attack", "[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [2] [Oil]", "Consumes [2] [Iron]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Must set up to ranged attack", "[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [2] [Oil]", "Consumes [2] [Iron]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -653,7 +653,7 @@
 		"cost": 425,
 		"requiredTech": "Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Water] units",
-			"Can carry [3] [Spell] units", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit", "Consumes [1] [Secret Project]", "Consumes [2] [Oil]", "Consumes [1] [Rune Stone]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+			"Can carry [3] [Spell] units", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit", "Consumes [1] [Secret Project]", "Consumes [2] [Oil]", "Consumes [1] [Rune Stone]", "Only available <with [Secret Project]>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -664,7 +664,7 @@
 		"strength": 85,
 		"cost": 525,
 		"requiredTech": "Bionic Physiology",
-		"uniques": ["Can move after attacking", "[+1] Movement <after discovering [Foresighting]>", "[+1] Sight <after discovering [Radar]>", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"uniques": ["Can move after attacking", "[+1] Movement <after discovering [Foresighting]>", "[+1] Sight <after discovering [Radar]>", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Only available <with [Secret Project]>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -676,8 +676,8 @@
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Warlock Project] is constructed>",
-			"Blast radius [4]", "Consumes [3] [Rune Stone]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Ballistic"],
+		"uniques": ["Nuclear weapon of Strength [4]", "Only available <if [Warlock Project] is constructed>",
+			"Blast radius [4]", "Consumes [3] [Rune Stone]", "Consumes [1] [Secret Project]", "Only available <with [Secret Project]>", "Ballistic"],
 		"attackSound": "nuke"
 	},
 	{
@@ -687,9 +687,10 @@
 		"strength": 55,
 		"cost": 330,
 		"requiredTech": "Refrigeration",
-		"uniques": ["Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"uniques": ["Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
 	},
 ]
+
 
 
 
