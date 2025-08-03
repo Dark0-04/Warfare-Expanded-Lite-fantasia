@@ -664,7 +664,7 @@
 		"strength": 85,
 		"cost": 525,
 		"requiredTech": "Bionic Physiology",
-		"uniques": ["Can move after attacking", "[+1] Movement <after discovering [Foresighting]", "[+1] Sight <after discovering [Radar]", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"uniques": ["Can move after attacking", "[+1] Movement <after discovering [Foresighting]>", "[+1] Sight <after discovering [Radar]>", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -690,5 +690,6 @@
 		"uniques": ["Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
 	},
 ]
+
 
 
