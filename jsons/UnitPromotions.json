@@ -123,4 +123,11 @@
 		"name": "UAV",
 		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%"]
 	},
+
+	//secret
+	{
+		"name": "Iron Curtain Force Field",
+		"uniques": ["[+33]% Strength <when defending>"]
+	}
 ]
+
