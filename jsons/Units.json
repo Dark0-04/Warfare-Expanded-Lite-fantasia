@@ -671,8 +671,8 @@
 		"name": "Apoclaypse Missile",
 		"unitType": "Missile",
 		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
+		"strength": 500,
+		"rangedStrength": 500,
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
@@ -690,6 +690,7 @@
 		"uniques": ["Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
 	},
 ]
+
 
 
 
