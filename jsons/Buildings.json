@@ -20,8 +20,8 @@
 		"name": "Runic Industrial Complex",
 		"cost": 1600,
 		"isWonder": true,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Empowerment",
 		"production": 7,
-		"uniques": ["Consumes [1] [Secret Project]", "Consumes [2] [Rune Stone]", "Consumes [3] [Iron]", "Provides [1] [Oil]", "Provides [3] [Adamantium]","Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "+[50]% Production when constructing [Construct] units [in this city]", "+[50]% Production when constructing [Armored] units [in this city]"]
+		"uniques": ["Consumes [1] [Secret Project]", "Consumes [2] [Rune Stone]", "Consumes [3] [Iron]", "Provides [1] [Oil]", "Provides [3] [Adamantium]","Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "[+50]% Production when constructing [Construct] units [in this city]", "[+50]% Production when constructing [Armored] units [in this city]"]
 	}
 ]
