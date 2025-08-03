@@ -1,0 +1,18 @@
+[
+  {
+		"name": "Military Research Bureau",
+		"cost": 400,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+	},
+  {
+		"name": "Iron Curtain",
+		"cost": 1500,
+		"isWonder": true,
+		"requiredTech": "Combined Arms",
+		"cityHealth": 200,
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Consumes [1] [Rune Stone]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Construct] units [in this city] receive the [Iron Curtain Force Field] promotion"]
+  }
+]
