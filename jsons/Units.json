@@ -177,7 +177,7 @@
 		"strength": 65,
 		"cost": 350,
 		"requiredTech": "Combined Arms",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop to Land tiles up to 5 tiles away <in [Friendly Land] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 		"upgradesTo": "Teleporter"
 	},
@@ -691,6 +691,7 @@
 		"attackSound": "torpedo"
 	},
 ]
+
 
 
 
