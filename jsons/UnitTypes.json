@@ -46,7 +46,7 @@
     
 	{
         "name": "Militia",
-	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
+	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength <when stacked with a [Civilian]>"],
         "movementType": "Land"
 	},
 	
@@ -220,3 +220,4 @@
         "uniques": ["Self-destructs when attacking"]
     },
 ]
+
