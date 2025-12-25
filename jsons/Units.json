@@ -40,7 +40,7 @@
 		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
-		"uniques": ["Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"],
+		"uniques": ["Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>", "Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
@@ -639,7 +639,7 @@
 		"rangedStrength": 65,
 		"cost": 500,
 		"requiredTech": "Combustion",
-		"uniques": ["Must set up to ranged attack", "[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [2] [Oil]", "Consumes [2] [Iron]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [1] per Civilization", "Can only be built <in cities with a [Military Research Bureau]>", "Must set up to ranged attack", "[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [2] [Oil]", "Consumes [2] [Iron]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -648,11 +648,11 @@
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 60,
-		"range": 3,
+		"range": 4,
 		"interceptRange": 2,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Ballistics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Water] units",
+		"uniques": ["Limited to [1] per Civilization", "Can only be built <in cities with a [Military Research Bureau]>", "[+50]% Strength <vs cities>", "[80]% chance to intercept air attacks", "Can see invisible [Water] units",
 			"Can carry [3] [Spell] units", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit", "Consumes [1] [Secret Project]", "Consumes [2] [Oil]", "Consumes [1] [Rune Stone]", "Only available <with [Secret Project]>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
@@ -664,7 +664,7 @@
 		"strength": 85,
 		"cost": 525,
 		"requiredTech": "Bionic Physiology",
-		"uniques": ["Can move after attacking", "[+1] Movement <after discovering [Foresighting]>", "[+1] Sight <after discovering [Radar]>", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Only available <with [Secret Project]>"],
+		"uniques": ["Limited to [1] per Civilization", "Can only be built <in cities with a [Military Research Bureau]>", "Can move after attacking", "[+1] Movement <after discovering [Foresighting]>", "[+1] Sight <after discovering [Radar]>", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Consumes [1] [Oil]", "Consumes [1] [Kyber]", "Consumes [1] [Adamantium]", "Only available <with [Secret Project]>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -676,7 +676,7 @@
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [4]", "Only available <if [Warlock Project] is constructed>",
+		"uniques": ["Can only be built <in cities with a [Military Research Bureau]>", "Nuclear weapon of Strength [4]", "Only available <if [Warlock Project] is constructed>",
 			"Blast radius [4]", "Consumes [3] [Rune Stone]", "Consumes [1] [Secret Project]", "Only available <with [Secret Project]>", "Ballistic"],
 		"attackSound": "nuke"
 	},
@@ -685,11 +685,13 @@
 		"unitType": "Naval Carrier",
 		"movement": 5,
 		"strength": 55,
-		"cost": 330,
+		"cost": 370,
 		"requiredTech": "Refrigeration",
-		"uniques": ["Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"uniques": ["Limited to [1] per Civilization", "Can only be built <in cities with a [Military Research Bureau]>", "Submarine", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [4] [Aircraft] units", "Can carry [1] [Missile] units", "Never appears as a Barbarian unit", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"attackSound": "torpedo"
 	},
 ]
+
 
 
 
